@@ -1,0 +1,189 @@
+{
+  "dashboard_title": "Notion Dashboard – KI Influencerin & KI Agentur",
+  "language": "de",
+  "modules": [
+    {
+      "title": "Cockpit",
+      "type": "page",
+      "content": {
+        "Wöchentliches Ziel": "Struktur aufbauen & erste Umsätze vorbereiten (KW 29)",
+        "Tagesübersicht": [
+          "Content für Luna Rae posten",
+          "Neue Leads aus Fanvue prüfen",
+          "ChatGPT-Antworten auswerten",
+          "Status der Automatisierung (n8n) prüfen"
+        ],
+        "Kennzahlen": {
+          "Instagram-Follower": "333 / Ziel: 1.000",
+          "Fanvue-Umsatz": "€",
+          "Neue zahlende Follower": "letzte 48h"
+        }
+      }
+    },
+    {
+      "title": "GPT-Verwaltung",
+      "type": "database",
+      "columns": [
+        "GPT-Name",
+        "Bereich",
+        "Funktion",
+        "Status"
+      ],
+      "rows": [
+        [
+          "Karrierearchitekt",
+          "Privat",
+          "Bewerbung, Zielausrichtung",
+          "aktiv"
+        ],
+        [
+          "Markenmanager",
+          "Agency",
+          "Visual Branding, Markenstruktur",
+          "aktiv"
+        ],
+        [
+          "PromptAssistent",
+          "Produktion",
+          "Bild-Prompts für MimicPC",
+          "aktiv"
+        ],
+        [
+          "Erotik-Content-Experte",
+          "Influencer",
+          "Caption-Erstellung, psychologischer Aufbau",
+          "aktiv"
+        ],
+        [
+          "ChatResponder-GPT",
+          "Verkauf",
+          "Chatanalyse & Leads",
+          "in Test"
+        ]
+      ]
+    },
+    {
+      "title": "Influencer-Verwaltung",
+      "type": "database",
+      "columns": [
+        "Name",
+        "Plattformen",
+        "Zielumsatz",
+        "Status",
+        "Nische"
+      ],
+      "rows": [
+        [
+          "Luna Rae",
+          "IG, Fanvue, Maloum",
+          "5.000 €/Monat",
+          "aktiv",
+          "Erotik / Mainstream"
+        ],
+        [
+          "[NEU]",
+          "(Aufbau geplant)",
+          "2.000 €/Monat",
+          "geplant",
+          "Nischenmodell"
+        ]
+      ]
+    },
+    {
+      "title": "Content-Kalender",
+      "type": "calendar",
+      "example_entries": [
+        {
+          "Datum": "Montag",
+          "Format": "Reel",
+          "Thema": "POV-Flirt im Café",
+          "Plattformen": "IG, Fanvue"
+        },
+        {
+          "Datum": "Dienstag",
+          "Format": "Post",
+          "Thema": "Closeup + Zitat",
+          "Plattformen": "IG, Maloum"
+        },
+        {
+          "Datum": "Mittwoch",
+          "Format": "Reel",
+          "Thema": "Schlafzimmer-Moment",
+          "Plattformen": "IG, Fanvue"
+        }
+      ]
+    },
+    {
+      "title": "Projektübersicht",
+      "type": "kanban",
+      "columns": [
+        "Projektname",
+        "Typ",
+        "Status",
+        "Deadline"
+      ],
+      "rows": [
+        [
+          "Startphase Luna Rae",
+          "Influencer",
+          "aktiv",
+          ""
+        ],
+        [
+          "Latex-Modell Aufbau",
+          "Influencer",
+          "geplant",
+          ""
+        ],
+        [
+          "Chat-Automatisierung (n8n)",
+          "Agentur",
+          "geplant",
+          ""
+        ],
+        [
+          "Kursstruktur KI-Viralität",
+          "Agentur",
+          "backlog",
+          ""
+        ]
+      ]
+    },
+    {
+      "title": "Ideenbank",
+      "type": "list",
+      "ideas": [
+        "KI-Girlfriend-Plattform mit Voice-Chat & Abo-Modell",
+        "Kursverkauf über Gumroad vs. eigene Plattform",
+        "Video-Kooperation mit anderen AI-Influencerinnen",
+        "Nischenmodell 'Cyber-Goth AI Babe'"
+      ]
+    },
+    {
+      "title": "Automatisierungen",
+      "type": "table",
+      "columns": [
+        "Bereich",
+        "Idee",
+        "Status"
+      ],
+      "rows": [
+        [
+          "Content Upload",
+          "Upload-Wochenplan mit Scheduler (Meta Creator)",
+          "geplant"
+        ],
+        [
+          "Chat",
+          "GPT-Antwortsystem Fanvue/Maloum",
+          "in Planung"
+        ],
+        [
+          "Reporting",
+          "IG-Follower-Auto-Tracking",
+          "backlog"
+        ]
+      ]
+    }
+  ]
+}
